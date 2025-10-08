@@ -1,0 +1,25 @@
+#Function with No Arguments and No Return Value
+def greet():
+    print("Hello, welcome to Python!")         
+
+greet()
+
+#Function with Arguments but No Return Value
+def greet_user(name):
+    print(f"Hello, {name}!")
+
+greet_user("Varshitha")
+
+#Function with No Arguments but with Return Value
+def get_name():
+    name = "Python"
+    return name
+
+print(get_name())
+
+#Function with Arguments and Return Value
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+print("Sum:", result)
