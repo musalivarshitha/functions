@@ -1,0 +1,28 @@
+# Program to demonstrate different types of function arguments in Python
+
+def demo_args(name, age=18, *hobbies, **details):
+    # name -> positional/keyword argument
+    # age -> default argument
+    # hobbies -> variable-length positional arguments
+    # details -> variable-length keyword arguments
+
+    print("Name:", name)
+    print("Age:", age)
+    print("Hobbies:", hobbies)
+    print("Details:", details)
+
+
+# 🔹 Positional arguments
+demo_args("Varshitha", 21)
+
+# 🔹 Keyword arguments
+demo_args(name="Varshitha", age=22)
+
+# 🔹 Default argument (age will take default = 18)
+demo_args("Varshitha")
+
+# 🔹 Variable-length positional arguments (*args)
+demo_args("Varshitha", 21, "Reading", "Coding", "Drawing")
+
+# 🔹 Variable-length keyword arguments (**kwargs)
+demo_args("Varshitha", 21, "Traveling", city="Hyderabad", course="Data Analytics")
