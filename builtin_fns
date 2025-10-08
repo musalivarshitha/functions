@@ -1,0 +1,5 @@
+print("Hello, World!")      # prints output
+len("Python")               # returns the length of a string
+max(10, 20, 30)             # returns the largest number
+type(25)                    # returns the data type
+sum([1, 2, 3, 4])           # returns the sum of all elements
